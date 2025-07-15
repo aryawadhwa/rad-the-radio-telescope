@@ -1,0 +1,31 @@
+RADIO TELESCOPE DATA ANALYSIS REPORT
+==================================================
+
+Data File: radio_data_clean_20250703_182323.csv
+Analysis Date: 2025-07-03 18:27:12
+
+Observation Duration: 24.5 seconds (0.4 minutes)
+Total Data Points: 247
+Average Sample Rate: 10.1 Hz
+
+SIGNAL STATISTICS:
+          raw_adc     voltage    smoothed  baseline_diff  signal_strength
+count  246.000000  246.000000  246.000000     246.000000       246.000000
+mean   384.243902    1.878220  384.262195       9.551626         9.551626
+std      0.439693    0.002198    0.438171       0.438388         0.438388
+min    383.000000    1.872000  383.900000       9.180000         9.180000
+25%    384.000000    1.877000  384.000000       9.290000         9.290000
+50%    384.000000    1.877000  384.000000       9.290000         9.290000
+75%    384.000000    1.877000  384.875000      10.155000        10.155000
+max    385.000000    1.882000  385.000000      10.290000        10.290000
+
+SIGNAL DETECTION (3-sigma threshold):
+Detection Threshold: 10.87
+Number of signal events: 0
+
+RECOMMENDATIONS:
+1. Point antenna at Sun during day for strong radio source
+2. Try observations at different times of day
+3. Look for periodic variations in signal strength
+4. Compare signal levels when pointing at different sky regions
+5. Record weather conditions and correlate with signal variations
